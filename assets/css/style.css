@@ -91,7 +91,13 @@ nav {
   float: right;
   margin-top: 25px;
 }
+#titlecard{color:white;
+  text-align: center;
+  font-size: 200%;
+  background: #4aaaa5;
+  padding: 5%;
 
+}
 nav a {
   display: inline-block;
   padding-left: 15px;

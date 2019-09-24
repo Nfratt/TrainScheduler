@@ -11,7 +11,7 @@ var firebaseConfig = {
   // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-var database =firebase.database();
+var database = firebase.database();
 
 // Capture Button Click
 $("#addTrain").on("click", function (event) {
@@ -41,7 +41,7 @@ $("#addTrain").on("click", function (event) {
     var newFirstTrain = childSnapshot.val().firstTrain;
     var newFreq = childSnapshot.val().frequency;
 
-    // First Time (pushed back 1 year to make sure it comes before current time) just like in classwork 
+    // inital time  Time (pushed back 1 year to make sure it comes before current time) just like in classwork 
     var startTimeConverted = moment(newFirstTrain, "hh:mm").subtract(1, "years");
 
     // sets current time 
@@ -72,7 +72,7 @@ $("#addTrain").on("click", function (event) {
     $("#trainName, #destination, #firstTrain, #interval").val("");
     return false;
   },
-    //Handle the errors
+    // Handle the errors
     function (errorObject) {
       console.log("Errors handled: " + errorObject.code);
     });
