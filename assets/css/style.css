@@ -82,6 +82,11 @@ h3 {
 
 }
 
+#addTrain{
+  background: #4aaaa5;
+  float: right;
+  margin: 10px;
+}
 nav {
   float: right;
   margin-top: 25px;
@@ -139,55 +144,7 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
-/* portfolio page */
 
-.work {
-  position: relative;
-  float: left;
-  width: 200px;
-  /* height: 200px; */
-  margin: 20px 0 25px;
-  overflow: auto;
-  /* clear: both; */
-  margin: 20px;
-
-
-
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  width: 100%;
-  border: 0 none;
-  opacity: 0.8;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-  height: 60px;
-  font-size: 95%;
-}
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
 
 
 
